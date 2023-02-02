@@ -27,7 +27,6 @@ function App() {
       <Form onGetWeatherData={weatherDataHandler} />
 
       {dataIsFetched && weatherData ? <Weather data={weatherData} /> : null}
-      <Weather />
     </div>
   );
 }
